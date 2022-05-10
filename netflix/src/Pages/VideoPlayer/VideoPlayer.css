@@ -1,0 +1,34 @@
+.Watch{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    background: #000;
+}
+
+.video{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.backTrack{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 18px;
+
+    width: 80px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,120 @@
+.login-container{
+    background-color: rgba(0, 0, 0, 0.55);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: fit-content;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 70%;
+    width: 25%;
+
+    padding: 60px 68px 40px 68px;
+}
+
+.login-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0%;
+}
+
+.login-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-input > input{
+    padding: 16px 20px;
+    width: 300px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(233, 233, 233);
+}
+
+.login-signIn{
+    background-color: #E50914;
+    width: 340px;
+    border-radius: 4px;
+    padding: 14px 20px  ;
+    border: none;
+    outline : none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600 ;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.reset-password{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0px;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+.reset-password > a{
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-fb{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+
+.login-fb > * {
+    margin-right: 10px;
+}
+
+.new-user{
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+
+}
+
+.new-user > a {
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+
+}
+
+.reCaptha{
+    font-size: 14px;
+}
+
+.reCaptha > a{
+    color: rgb(101, 101, 253);
+    text-decoration: none;
+}
+
+.lowePart{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 110px;
+}
+

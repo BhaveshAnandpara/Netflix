@@ -1,0 +1,42 @@
+
+
+.listItem{
+    display: inline;
+
+    padding: 80px 140px;
+
+    background-color: rgb(27, 27, 27);
+    color: black;
+    margin-right: 20px ;
+
+    background-size: cover;
+}
+
+.listItem:hover{
+
+    padding:  65px 125px;
+    border: 1px solid rgb(205, 205, 205);
+
+    cursor: pointer;
+}
+
+.listItem:hover .play{
+    display: flex;
+
+}
+
+
+.play{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: rgb(86, 86, 86, 0.4);
+
+}
+
+.item-extra{
+    z-index: 10;
+}

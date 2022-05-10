@@ -1,0 +1,87 @@
+#Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 80px;
+    padding: 0px 15px;
+
+    position: fixed;
+
+    background: linear-gradient(to top , transparent 0%, rgb(0,0,0,0.3) 50%);
+    width: 100% ;
+
+    transition: all 0.2s ease-in;
+    z-index: 10;
+}
+
+.logo{
+    background-image: url("../../Assets/netflix.png");
+    background-size: cover;
+    
+
+    width: 160px;
+    height: 50px;
+}
+
+
+.nav-items{
+    margin: 0px 20px;
+}
+
+.account{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account > * {
+    margin: 0px 8px;
+}
+
+.user-img{
+    display: block;
+    height: 30px;
+    width: 30px;
+
+    border-radius: 90%;
+
+    background-image: url(../../Assets/Bhavesh.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.dropDown-content:hover  .dropdown{
+    display: flex;
+}
+
+#drop-arrow{
+    cursor: pointer;
+}
+
+.dropdown{
+
+    position: absolute;
+    top: 70px;
+    right: 24px ;
+
+    display: none;
+    flex-direction: column;
+    background-color: rgb(73, 73, 73);
+
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
+
+.dropdown > span {
+    margin-bottom: 6px;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}

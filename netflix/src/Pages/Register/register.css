@@ -1,0 +1,123 @@
+
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../Assets/Register.jpg);
+    color: white;
+    overflow-x: hidden;
+}
+
+.register-gradient {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background : linear-gradient(to right , black, rgba(23, 23, 23, 0.5));
+    position: absolute;
+
+}
+
+.top{
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 20px;
+
+}
+
+.top > *{
+    z-index: 1;
+
+}
+
+.container{
+    position: absolute;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#register-title{
+    max-width: 640px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#register-subtitle{
+    font-size: 26px;
+    margin: 0;
+    margin: 16px 0;
+}
+
+#register-text{
+    font-size: 19.2px;
+    margin: 12px 0px;
+}
+
+#Language{
+    padding: 8px 10px;
+    margin-right: 30px;
+    border-radius: 2px;
+}
+
+.signIn{
+    padding: 8px 18px;
+    background-color: #E50914;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 110%;
+
+    margin-top: 20px;
+}
+
+#register-email , #register-password {
+    padding: 18.5px 20px;
+    width: 420px;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.registeredButton{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 180px;
+
+    padding: 16px 20px;
+    background-color: #E50914;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+
+}
